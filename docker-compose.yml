@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  spec-to-ship:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - DEFAULT_MODEL=${DEFAULT_MODEL:-google/gemini-2.0-flash-001}
+      - PORT=3000
+    volumes:
+      - ./output:/root/SpecShip/output
+      - ./spec-to-ship.db:/root/SpecShip/spec-to-ship.db
+
+
