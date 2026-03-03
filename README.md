@@ -4,7 +4,7 @@
 # SPEC-TO-SHIP: Production-Grade Multi-Agent Engineering Pipeline
 
 
-> **This tool was built autonomously by [NEO](https://heyneo.so/) — an autonomous ML agent.**
+> **This tool was built autonomously by [NEO](https://heyneo.so/) — Your Autonomous AI Engineering Agent.**
 
  
 SPEC-TO-SHIP is a fully automated, production-grade multi-agent engineering pipeline that transforms raw feature ideas into committed, tested code. The system orchestrates five specialized AI agents (Architect, Planner, Engineer, QA, Reviewer) within a single Node.js process to simulate a complete startup engineering team workflow.
@@ -125,5 +125,5 @@ Artifacts are stored in `./output/{runId}/`:
 - **Timeout**: Hard 20-minute limit per pipeline run.
 
 ---
-> 🤖 Built autonomously by [NEO](https://heyneo.so/) — an autonomous ML agent.
+> 🤖 Built autonomously by [NEO](https://heyneo.so/) —  Autonomous AI Engineering Agent.
 ---
